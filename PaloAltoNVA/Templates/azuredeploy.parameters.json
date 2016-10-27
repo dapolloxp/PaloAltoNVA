@@ -2,5 +2,56 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "newStorageAccount": {
+            "value": "dapolpaloalto2"
+        },
+        "dnsNameForPublicIP": {
+            "value": "dapolpaloalto2pip"
+        },
+        "vmName": {
+            "value": "paloaltonva"
+        },
+        "adminUserName": {
+            "value": "x-admin"
+        },
+        "adminPassword": {
+            "value": "1@g2Jbk7$secure"
+        },
+        "vmSize": {
+            "value": "Standard_D3"
+        },
+        "srcIPInboundNSG": {
+            "value": "*"
+        },
+        "virtualNetworkName": {
+            "value": "PaloAltoNet"
+        },
+        "virtualNetworkAddressPrefix": {
+            "value": "192.168.160.0/22"
+        },
+        "subnet0Prefix": {
+            "value": "192.168.160.0/24"
+        },
+        "subnet1Prefix": {
+            "value": "192.168.161.0/24"
+        },
+        "subnet2Prefix": {
+            "value": "192.168.162.0/24"
+        },
+        "subnet0StartAddress": {
+            "value": "192.168.160.4"
+        },
+        "subnet1StartAddress": {
+            "value": "192.168.161.4"
+        },
+        "subnet2StartAddress": {
+            "value": "192.168.162.4"
+        },
+        "lbname": {
+            "value": "paloaltolb"
+        }
     }
 }
