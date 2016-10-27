@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "PaloAltoNVA", "PaloAltoNVA\PaloAltoNVA.deployproj", "{393A8DC9-D6B6-425E-B766-7739BA5B82FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393A8DC9-D6B6-425E-B766-7739BA5B82FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393A8DC9-D6B6-425E-B766-7739BA5B82FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393A8DC9-D6B6-425E-B766-7739BA5B82FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393A8DC9-D6B6-425E-B766-7739BA5B82FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
